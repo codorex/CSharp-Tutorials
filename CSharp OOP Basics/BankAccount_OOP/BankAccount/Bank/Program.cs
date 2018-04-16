@@ -6,18 +6,26 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-  public class Program
-  {
-    static void Main(string[] args)
+    public class Program
     {
-      List<BankAccount> accounts = new List<BankAccount>()
-      {
-        new BankAccount("FiBank", 500),
-        new BankAccount("UniCredit", 600),
-        new BankAccount("DSK", 100)
-      };
+        static void Main(string[] args)
+        {
+            List<BankAccount> accounts = new List<BankAccount>()
+            {
+                new BankAccount("FiBank", 500),
+                new BankAccount("UniCredit", 600),
+                new BankAccount("DSK", 100)
+            };
 
-      Person person = new Person("Peshko Peshev", 18, accounts);
+            Person person = new Person("Peshko Peshev", 18, accounts);
+
+            foreach (var account in person.BankAccounts)
+            {
+                if (account.AccountName == "UniCredit")
+                {
+                    account.Withdraw(700);
+                }
+            }
+        }
     }
-  }
 }

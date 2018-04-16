@@ -6,48 +6,48 @@ using System.Threading.Tasks;
 
 namespace Bank
 {
-  public class BankAccount
-  {
-    public string AccountName { get; set; }
-    public double Balance { get; set; }
-
-    public BankAccount(string accountName, double balance)
+    public class BankAccount
     {
-      this.Balance = balance;
-      this.AccountName = accountName;
-    }
+        public string AccountName { get; set; }
+        public double Balance { get; set; }
 
-    public double CheckBalance()
-    {
-      return this.Balance;
-    }
+        public BankAccount(string accountName, double balance)
+        {
+            this.Balance = balance;
+            this.AccountName = accountName;
+        }
 
-    public double Withdraw(double sum)
-    {
-      if (this.Balance >= sum && sum > 0)
-      {
-        this.Balance -= sum;
-        Console.WriteLine("Balance after withdrwal: {0}", this.Balance);
-        return sum;
-      }
-      else 
-      {
-        Console.WriteLine("Not enough money in your bank account!\nCurrent balance: {0}", this.Balance);
-        return 0;
-      }
-    }
+        public double CheckBalance()
+        {
+            return this.Balance;
+        }
 
-    public void Deposit(double sum)
-    {
-      if (sum > 0)
-      {
-        this.Balance += sum;
-        Console.WriteLine("Balance after deposit: {0}", this.Balance);
-      }
-      else
-      {
-        Console.WriteLine("Cannot deposit negative value!");
-      }
+        public double Withdraw(double sum)
+        {
+            if (this.Balance >= sum && sum > 0)
+            {
+                this.Balance -= sum;
+                Console.WriteLine("Balance after withdrawal: {0}$", this.Balance);
+                return sum;
+            }
+            else
+            {
+                Console.WriteLine("Not enough money in your bank account!\n--Current balance: {0}$\n--Requested sum: {1}$\n--Difference: -{2}$", this.Balance, sum, sum - this.Balance);
+                return 0;
+            }
+        }
+
+        public void Deposit(double sum)
+        {
+            if (sum > 0)
+            {
+                this.Balance += sum;
+                Console.WriteLine("Balance after deposit: {0}$", this.Balance);
+            }
+            else
+            {
+                Console.WriteLine("Cannot deposit negative value!");
+            }
+        }
     }
-  }
 }

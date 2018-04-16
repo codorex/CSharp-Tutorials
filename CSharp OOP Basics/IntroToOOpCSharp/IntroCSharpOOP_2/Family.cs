@@ -27,9 +27,9 @@ namespace IntroCSharpOOP_2
             members.Add(member);
         }
 
-        public void Exterminate(Person plebToExterminate)
+        public void Exterminate(Person member)
         {
-            members.Remove(plebToExterminate);
+            members.Remove(member);
         }
     }
 }
