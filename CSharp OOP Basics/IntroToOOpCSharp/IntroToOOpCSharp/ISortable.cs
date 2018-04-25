@@ -5,13 +5,11 @@ using System.Text;
 
 namespace IntroToOOpCSharp
 {
-    //TODO: to be explained
     public interface ISortable
     {
         int SortOrder { get; }
     }
 
-    //TODO: to be explained
     public static class ISortableExtensions
     {
         public static ISortable[] Sort(this ISortable[] sortableCollection)

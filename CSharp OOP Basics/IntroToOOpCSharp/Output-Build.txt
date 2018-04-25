@@ -1,0 +1,3 @@
+﻿1>------ Build started: Project: ShapesAdvanced, Configuration: Debug Any CPU ------
+1>  ShapesAdvanced -> C:\Users\fmi\Downloads\repo\CSharp-Tutorials\CSharp OOP Basics\IntroToOOpCSharp\ShapesAdvanced\bin\Debug\ShapesAdvanced.exe
+========== Build: 1 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========

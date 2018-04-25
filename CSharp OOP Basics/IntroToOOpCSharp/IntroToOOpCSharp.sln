@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroToOOpCSharp", "IntroTo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IntroCSharpOOP_2", "IntroCSharpOOP_2\IntroCSharpOOP_2.csproj", "{BBC93238-5CA3-47C0-BE45-25A8307D3994}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapesAdvanced", "ShapesAdvanced\ShapesAdvanced.csproj", "{61A038CA-7886-4253-A392-F847678EA509}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{BBC93238-5CA3-47C0-BE45-25A8307D3994}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BBC93238-5CA3-47C0-BE45-25A8307D3994}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BBC93238-5CA3-47C0-BE45-25A8307D3994}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61A038CA-7886-4253-A392-F847678EA509}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61A038CA-7886-4253-A392-F847678EA509}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61A038CA-7886-4253-A392-F847678EA509}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61A038CA-7886-4253-A392-F847678EA509}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
