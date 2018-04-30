@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Homework_Problem1
 {
-
   enum Gender
   {
     Unassigned = 0,
