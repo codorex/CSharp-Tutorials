@@ -19,11 +19,12 @@ namespace TeamBuilder
       InitializeComponent();
 
       teamBuilder = new Builder();
+      listBox1.DisplayMember = "Name";
     }
 
     private bool ValidateField(string fieldValue)
     {
-      return String.IsNullOrEmpty(fieldValue);
+      return !String.IsNullOrEmpty(fieldValue);
     }
 
     private bool ValidateNumericField(string fieldValue)
@@ -56,11 +57,16 @@ namespace TeamBuilder
           MessageBox.Show(exception.Message);
         }
 
-        listBox1.Items.Clear();
-        foreach (var item in teamBuilder.Heroes)
-        {
-          listBox1.Items.Add(item.Value);
-        }
+        RefreshHeroesList();
+      }
+    }
+
+    private void RefreshHeroesList()
+    {
+      listBox1.Items.Clear();
+      foreach (var item in teamBuilder.Heroes)
+      {
+        listBox1.Items.Add(item.Value);
       }
     }
   }
