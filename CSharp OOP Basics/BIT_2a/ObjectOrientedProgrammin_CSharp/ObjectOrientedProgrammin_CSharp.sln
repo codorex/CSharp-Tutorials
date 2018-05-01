@@ -1,13 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.8
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgrammin_CSharp", "ObjectOrientedProgrammin_CSharp\ObjectOrientedProgrammin_CSharp.csproj", "{AEAFD308-EC73-441F-850D-D8BBB27A309E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework_Problem1", "Homework_Problem1\Homework_Problem1.csproj", "{3D23F23E-0D55-446C-9B75-2DD8444E6045}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamBuilder", "TeamBuilder\TeamBuilder.csproj", "{1A4AC196-E98D-4DD1-AFA3-42E1F8D5390E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,12 +21,11 @@ Global
 		{3D23F23E-0D55-446C-9B75-2DD8444E6045}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D23F23E-0D55-446C-9B75-2DD8444E6045}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D23F23E-0D55-446C-9B75-2DD8444E6045}.Release|Any CPU.Build.0 = Release|Any CPU
-		{1A4AC196-E98D-4DD1-AFA3-42E1F8D5390E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{1A4AC196-E98D-4DD1-AFA3-42E1F8D5390E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{1A4AC196-E98D-4DD1-AFA3-42E1F8D5390E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{1A4AC196-E98D-4DD1-AFA3-42E1F8D5390E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F695726-BE0A-47C1-9E2B-75CC670AB9E0}
 	EndGlobalSection
 EndGlobal
