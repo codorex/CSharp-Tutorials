@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DankLibrary", "DankLibrary\DankLibrary.csproj", "{5F44459B-D62B-41E2-8414-1602E344248E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DankLibrary.Data", "DankLibrary.Data\DankLibrary.Data.csproj", "{17CE19AB-9315-4A63-84C5-01C9D098437C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F44459B-D62B-41E2-8414-1602E344248E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F44459B-D62B-41E2-8414-1602E344248E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F44459B-D62B-41E2-8414-1602E344248E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F44459B-D62B-41E2-8414-1602E344248E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17CE19AB-9315-4A63-84C5-01C9D098437C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17CE19AB-9315-4A63-84C5-01C9D098437C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17CE19AB-9315-4A63-84C5-01C9D098437C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17CE19AB-9315-4A63-84C5-01C9D098437C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0D1E03CD-0BDF-4ED1-BE9F-3FF48CD06985}
+	EndGlobalSection
+EndGlobal
